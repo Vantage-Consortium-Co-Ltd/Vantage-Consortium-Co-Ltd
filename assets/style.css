@@ -200,6 +200,11 @@ h2 { font-size: clamp(1.6rem, 3.4vw, 2.3rem); }
 .feature-card h3 { font-size: 1.05rem; margin-bottom: .4em; }
 .feature-card p { font-size: .92rem; margin: 0; }
 
+.tradeoff { font-size: .88rem; margin: 0 0 8px; color: var(--text); }
+.tradeoff:last-child { margin-bottom: 0; }
+.tradeoff-pro { color: #5fffb0; }
+.tradeoff-con { color: #ff9f5f; }
+
 /* Team grid */
 .team-grid {
   display: grid;
