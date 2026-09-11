@@ -307,6 +307,19 @@ h2 { font-size: clamp(1.6rem, 3.4vw, 2.3rem); }
   margin-bottom: 16px;
 }
 
+/* Fallback for members without a known GitHub avatar yet */
+.avatar-initials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #051022;
+  background: linear-gradient(135deg, var(--avatar-a), var(--avatar-b));
+  border: none;
+}
+
 .team-card h3 { font-size: 1.02rem; margin-bottom: 2px; }
 .name-th { font-size: .8rem; color: var(--text-dim); margin: 0 0 8px; }
 .role { color: var(--accent); font-size: .82rem; font-weight: 600; margin-bottom: 10px; }
