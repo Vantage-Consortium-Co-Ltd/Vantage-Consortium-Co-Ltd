@@ -232,8 +232,19 @@ h2 { font-size: clamp(1.6rem, 3.4vw, 2.3rem); }
 }
 
 .team-card h3 { font-size: 1.02rem; margin-bottom: 2px; }
+.name-th { font-size: .8rem; color: var(--text-dim); margin: 0 0 8px; }
 .role { color: var(--accent); font-size: .82rem; font-weight: 600; margin-bottom: 10px; }
-.team-card .bio { font-size: .88rem; margin: 0; }
+.team-card .bio { font-size: .88rem; margin: 0 0 14px; }
+
+.team-links { display: flex; gap: 14px; flex-wrap: wrap; }
+.team-links a {
+  font-size: .82rem;
+  font-weight: 600;
+  color: var(--text-dim);
+  border-bottom: 1px solid transparent;
+  transition: color .15s, border-color .15s;
+}
+.team-links a:hover { color: var(--accent); border-color: var(--accent); }
 
 /* Contact */
 .contact-inner { max-width: 640px; }
