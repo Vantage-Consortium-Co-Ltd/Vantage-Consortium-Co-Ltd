@@ -252,14 +252,10 @@ h2 { font-size: clamp(1.6rem, 3.4vw, 2.3rem); }
   width: 52px;
   height: 52px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Space Grotesk", sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
-  color: #051022;
-  background: linear-gradient(135deg, var(--avatar-a), var(--avatar-b));
+  display: block;
+  object-fit: cover;
+  background: var(--card-border);
+  border: 1px solid var(--card-border);
   margin-bottom: 16px;
 }
 
