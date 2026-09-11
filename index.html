@@ -36,7 +36,8 @@
 
 <main>
 
-  <section class="hero">
+  <section class="hero" id="heroDepth">
+    <div class="hero-bg" aria-hidden="true"></div>
     <div class="wrap hero-inner">
       <p class="eyebrow">Vantage Consortium Co., Ltd.</p>
       <h1>Computer Vision, <span class="accent">Implemented.</span></h1>
@@ -57,24 +58,24 @@
   <section id="product" class="product">
     <div class="wrap">
       <p class="eyebrow">Project</p>
-      <h2>Farm Eyes</h2>
-      <p class="section-lead-en">Farm Eyes detects and diagnoses plant diseases from photos. We're weighing three ways to build it:</p>
-      <p class="section-lead-th">Farm Eyes ตรวจจับและวินิจฉัยโรคของพืชจากภาพถ่าย โดยกำลังพิจารณา 3 แนวทางในการพัฒนา</p>
+      <h2 class="reveal">Farm Eyes</h2>
+      <p class="section-lead-en reveal">Farm Eyes detects and diagnoses plant diseases from photos. We're weighing three ways to build it:</p>
+      <p class="section-lead-th reveal">Farm Eyes ตรวจจับและวินิจฉัยโรคของพืชจากภาพถ่าย โดยกำลังพิจารณา 3 แนวทางในการพัฒนา</p>
 
       <div class="feature-grid">
-        <article class="feature-card">
+        <article class="feature-card tilt-card reveal">
           <div class="feature-icon" aria-hidden="true"><span class="material-symbols-outlined">chat</span></div>
           <h3>Chat Bot</h3>
           <p class="tradeoff tradeoff-pro"><span class="material-symbols-outlined" aria-hidden="true">check_circle</span> Can answer follow-up questions about the diagnosed disease.</p>
           <p class="tradeoff tradeoff-con"><span class="material-symbols-outlined" aria-hidden="true">warning</span> Model training process is more complex.</p>
         </article>
-        <article class="feature-card">
+        <article class="feature-card tilt-card reveal">
           <div class="feature-icon" aria-hidden="true"><span class="material-symbols-outlined">smartphone</span></div>
           <h3>App / Web App (YOLO)</h3>
           <p class="tradeoff tradeoff-pro"><span class="material-symbols-outlined" aria-hidden="true">check_circle</span> Faster and simpler to develop using an object detection model like YOLO.</p>
           <p class="tradeoff tradeoff-con"><span class="material-symbols-outlined" aria-hidden="true">warning</span> Users only see the disease name, with no further explanation.</p>
         </article>
-        <article class="feature-card">
+        <article class="feature-card tilt-card reveal">
           <div class="feature-icon" aria-hidden="true"><span class="material-symbols-outlined">link</span></div>
           <h3>YOLO + LLM Pipeline</h3>
           <p class="tradeoff tradeoff-pro"><span class="material-symbols-outlined" aria-hidden="true">check_circle</span> YOLO classifies the disease, then hands off to an LLM to continue the conversation.</p>
@@ -87,12 +88,12 @@
   <section id="team" class="team">
     <div class="wrap">
       <p class="eyebrow">Team</p>
-      <h2>The people behind Farm Eyes</h2>
-      <p class="section-lead-en">A small, cross-functional team covering strategy, engineering, and delivery end to end.</p>
+      <h2 class="reveal">The people behind Farm Eyes</h2>
+      <p class="section-lead-en reveal">A small, cross-functional team covering strategy, engineering, and delivery end to end.</p>
 
       <div class="team-grid">
 
-        <article class="team-card">
+        <article class="team-card tilt-card reveal">
           <img class="avatar" src="https://github.com/chonlatorn230.png" alt="Chonlatorn Rangsiri" loading="lazy">
           <h3>Chonlatorn Rangsiri</h3>
           <p class="name-th">ชลธร หรั่งศิริ</p>
@@ -104,7 +105,7 @@
           </div>
         </article>
 
-        <article class="team-card">
+        <article class="team-card tilt-card reveal">
           <img class="avatar" src="https://github.com/MittrapakXXV.png" alt="Mittrapak Klomjai" loading="lazy">
           <h3>Mittrapak Klomjai</h3>
           <p class="name-th">มิตรภักดิ์ กล่อมใจ</p>
@@ -116,7 +117,7 @@
           </div>
         </article>
 
-        <article class="team-card">
+        <article class="team-card tilt-card reveal">
           <img class="avatar" src="https://github.com/maeteerapoopakdee-spec.png" alt="Maeteera Phuphakdee" loading="lazy">
           <h3>Maeteera Phuphakdee</h3>
           <p class="name-th">เมธีรา ภูภักดี</p>
@@ -128,7 +129,7 @@
           </div>
         </article>
 
-        <article class="team-card">
+        <article class="team-card tilt-card reveal">
           <img class="avatar" src="https://github.com/PhuriphatTyPeZ3r0.png" alt="Phuriphat Hemakul" loading="lazy">
           <h3>Phuriphat Hemakul</h3>
           <p class="name-th">ภูริพัฒน์ เหมกุล</p>
@@ -140,7 +141,7 @@
           </div>
         </article>
 
-        <article class="team-card">
+        <article class="team-card tilt-card reveal">
           <img class="avatar" src="https://github.com/Kitkhachon-xx.png" alt="Kritkhachorn Jirawongrungrueang" loading="lazy">
           <h3>Kritkhachorn Jirawongrungrueang</h3>
           <p class="name-th">กฤษขจร จิรวงศ์รุ่งเรือง</p>
@@ -159,9 +160,9 @@
   <section id="contact" class="contact">
     <div class="wrap contact-inner">
       <p class="eyebrow">Contact</p>
-      <h2>Let's implement ML that ships.</h2>
-      <p class="section-lead-en">Tell us about your data, your users, and what "done" looks like.</p>
-      <p class="section-lead-th">เล่าให้เราฟังเกี่ยวกับข้อมูลของคุณ ผู้ใช้งาน และเป้าหมายที่ต้องการ</p>
+      <h2 class="reveal">Let's implement ML that ships.</h2>
+      <p class="section-lead-en reveal">Tell us about your data, your users, and what "done" looks like.</p>
+      <p class="section-lead-th reveal">เล่าให้เราฟังเกี่ยวกับข้อมูลของคุณ ผู้ใช้งาน และเป้าหมายที่ต้องการ</p>
       <a class="btn btn-primary" href="mailto:vantage.consortium@gmail.com">vantage.consortium@gmail.com</a>
     </div>
   </section>
